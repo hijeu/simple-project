@@ -15,4 +15,4 @@ router.setRoutes([
 	{ path: `${BASE}users/:user`, component: "my-user" },
 ]);
 
-export { router };
+export { router, BASE };

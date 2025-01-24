@@ -12,7 +12,11 @@ export class MyUser extends LitElement {
 	}
 
 	static get styles() {
-		return css``;
+		return css`
+			h1 {
+				text-align: center;
+			}
+		`;
 	}
 }
 
